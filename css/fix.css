@@ -1,0 +1,115 @@
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+
+}
+
+main {
+  flex: 1 0 auto;
+}
+
+
+.sidenavbg {
+  background-image: url('../images/fist.svg');
+  background-repeat: no-repeat;
+  background-position-y: bottom;
+  background-position-x: right;
+  background-size: 100px 200px;
+}
+
+#sidenavtitle {
+  font-family: 'Roboto Slab', serif;
+  font-weight: 900;
+  font-size: 1.5em;
+  padding-left: 16px;
+}
+
+li#sidenavlanguage a {
+  padding-right: 0px !important;
+    padding: 0 16px !important;
+  float: right !important;
+  opacity: 0.5;
+}
+
+li#sidenavlanguage a:hover {
+  opacity: 1;
+}
+
+
+.tag-title{
+  text-transform: uppercase !important;
+  padding: 0.1em;
+  display: inline-block;
+}
+.tag-btn{
+  text-transform: uppercase !important;
+  padding: 0.1em;
+  color: #0d6efd !important;
+  display: inline-block;
+}
+.tag-btn:hover{
+  color: #4590ff !important;
+  cursor: pointer;
+  
+}
+
+nav.black-text {
+  -webkit-box-shadow: 0 2px 2px 0 rgba(0,0,0,0),0 3px 1px -2px rgba(0,0,0,0),0 1px 5px 0 rgba(0,0,0,0);
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,0.0),0 3px 1px -2px rgba(0,0,0,0),0 1px 5px 0 rgba(0,0,0,0);
+}
+
+.fixed-action-btn {
+  position: fixed;
+  right: 23px;
+  top: 0px;
+  padding-top: 15px;
+  margin-top: 0;
+  z-index: 997;
+}
+
+
+.filtr-item img.responsive-img {border-radius: 10px;}
+
+
+.filtr-item .project-title {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.filtr-item .project-link {
+  text-transform: uppercase;
+  font-family: 'Roboto Slab', serif;
+  color: black !important;
+  font-weight: 900 !important;
+  font-size: 1em !important;
+  }
+
+.filtr-item:hover .responsive-img {opacity: 0.3; filter:blur(1em);}
+
+.filtr-item:hover .project-title {opacity: 1;}
+
+.filtr-item {
+  margin-bottom: 15px; /* ajusta o valor conforme precisares */
+}
+
+.intervir {
+  font-family: 'Roboto Slab', serif;
+  color: black !important;
+  font-weight: 900 !important;
+  }
+
+.modal-content h4{font-family: 'Roboto Slab', serif;
+  color: black !important;
+  font-weight: 900 !important;}
+
+  .label{  font-family: 'Roboto Slab', serif;
+  color: black !important;
+  font-weight: 900 !important;
+}
