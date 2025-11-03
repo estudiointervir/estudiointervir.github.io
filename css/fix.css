@@ -9,6 +9,7 @@ body {
 main {flex: 1 0 auto;}
 
 .sidenav{height: 100vh;}
+.modal { max-height: 70%; overflow: visible}
 
 .sidenavbg {
   height: 100vh;
