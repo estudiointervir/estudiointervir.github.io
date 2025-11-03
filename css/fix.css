@@ -2,6 +2,7 @@ body {
   display: flex;
   min-height: 100vh;
   flex-direction: column;
+  background-color: #ecf0f1;
 
 }
 
@@ -11,11 +12,11 @@ main {
 
 
 .sidenavbg {
-  background-image: url('../images/fist.svg');
+  background-image: url('../favicon.svg');
   background-repeat: no-repeat;
-  background-position-y: bottom;
-  background-position-x: right;
-  background-size: 100px 200px;
+  background-position-y: bottom 2em;
+  background-position-x: center;
+  background-size: 90% auto;
 }
 
 #sidenavtitle {
@@ -113,3 +114,5 @@ nav.black-text {
   color: black !important;
   font-weight: 900 !important;
 }
+
+
