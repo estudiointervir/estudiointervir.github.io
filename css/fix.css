@@ -12,6 +12,7 @@ main {
 
 
 .sidenavbg {
+  height: 100vh;
   background-image: url('../favicon.svg');
   background-repeat: no-repeat;
   background-position-y: bottom 2em;
