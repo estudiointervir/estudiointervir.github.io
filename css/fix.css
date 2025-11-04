@@ -14,7 +14,7 @@ main {flex: 1 0 auto;}
   height: 100vh;
   background-image: url('../favicon.svg');
   background-repeat: no-repeat;
-  background-position: bottom 2em;
+  background-position-y: bottom 2em;
   background-size: 90% auto;
 }
 
