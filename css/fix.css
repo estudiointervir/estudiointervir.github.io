@@ -8,14 +8,14 @@ body {
 
 main {flex: 1 0 auto;}
 
-.sidenav{height: 100vh;}
+.sidenav{height: 100vh; background-color:red}
 .modal { max-height: 70%; overflow: visible}
 
 .sidenavbg {
   height: 100vh;
   background-image: url('../favicon.svg');
   background-repeat: no-repeat;
-  background-position-y: bottom 2em;
+  background-position-y: 0px;
   background-position-x: center;
   background-size: 90% auto;
 }
