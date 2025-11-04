@@ -11,6 +11,6 @@
   }); // end of document ready
 })(jQuery); // end of jQuery name space
 
-  var filterizd = $('.filtr-container').filterizr({
+//  var filterizd = $('.filtr-container').filterizr({
      //options object
-  });  
+//  });  
