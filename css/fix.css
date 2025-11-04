@@ -6,8 +6,8 @@ body {
   background-image: url('../images/bg.png');
   background-repeat: no-repeat;
   background-position-x: left;
-  background-position-y: 100%;
-  background-size: 25% auto;
+  background-position-y: 120%;
+  background-size: 50% auto;
 }
 
 main {flex: 1 0 auto;}
