@@ -3,7 +3,11 @@ body {
   min-height: 100vh;
   flex-direction: column;
   background-color: #ecf0f1;
-
+  background-image: url('../images/bg.png');
+  background-repeat: no-repeat;
+  background-position-x: left;
+  background-position-y: 100%;
+  background-size: 100% auto;
 }
 
 main {flex: 1 0 auto;}
