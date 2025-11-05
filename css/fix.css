@@ -6,8 +6,8 @@ body {
   background-image: url('../images/downloadfile.svg');
   background-repeat: no-repeat;
   background-position-x: left;
-  background-position-y: 100%;
-  background-size: 70% auto;
+  background-position-y: 130%;
+  background-size: 100% auto;
 }
 
 main {flex: 1 0 auto;}
