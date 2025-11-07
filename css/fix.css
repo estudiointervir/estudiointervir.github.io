@@ -89,7 +89,7 @@ nav.black-text {
   text-transform: uppercase;
   font-family: "Amatic SC", sans-serif;
   color: black !important;
-  font-weight: 400 !important;
+  font-weight: 700 !important;
   font-size: 2em !important;
   }
 
@@ -124,13 +124,13 @@ h4y {
 
 .modal-content h4{font-family: "Amatic SC", sans-serif;
   color: black !important;
-  font-weight: 400 !important;
+  font-weight: 700 !important;
 }
 
   .label{  font-family: "Amatic SC", sans-serif;
   color: black !important;
-  font-weight: 700 !important;
-font-size: 1.5em;
+  font-weight: 400 !important;
+font-size: 1.2em;
 }
 
 
