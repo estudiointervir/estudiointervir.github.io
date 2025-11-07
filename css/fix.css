@@ -89,14 +89,14 @@ nav.black-text {
   text-transform: uppercase;
   font-family: "Amatic SC", sans-serif;
   color: black !important;
-  font-weight: 700 !important;
-  font-size: 1em !important;
+  font-weight: 400 !important;
+  font-size: 1.5em !important;
   }
 
 
 h4 {
-  font-family: "Amatic SC", sans-serif;
-  font-weight: 400;
+  font-family: "Amatic SC", sans-serif !important;
+  font-weight: 400 !important;
   font-style: normal;
 }
 
