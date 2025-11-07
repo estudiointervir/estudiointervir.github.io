@@ -87,11 +87,26 @@ nav.black-text {
 
 .filtr-item .project-link {
   text-transform: uppercase;
-  font-family: 'Roboto Slab', serif;
+  font-family: "Amatic SC", sans-serif;
   color: black !important;
-  font-weight: 900 !important;
+  font-weight: 700 !important;
   font-size: 1em !important;
   }
+
+
+H4 {
+  font-family: "Amatic SC", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.amatic-sc-bold {
+  font-family: "Amatic SC", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+
 
 .filtr-item:hover .responsive-img {opacity: 0.3; filter:blur(1em);}
 
