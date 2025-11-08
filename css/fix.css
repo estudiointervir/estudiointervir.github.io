@@ -93,13 +93,15 @@ nav.black-text {
 
 
 .amatic {
-  /*font-family: "Amatic SC", sans-serif !important;*/
+  /* font-family: "Amatic SC", sans-serif !important; */
+font-family: 'Roboto Slab', serif !important;
   font-weight: 400 !important;
   font-style: normal;
 }
 
 .amatic-bold {
-  /*font-family: "Amatic SC", sans-serif !important;*/
+  /* font-family: "Amatic SC", sans-serif !important; */
+font-family: 'Roboto Slab', serif !important;
   font-weight: 700 !important;
   font-style: normal;
 }
@@ -122,6 +124,7 @@ nav.black-text {
 
   .label{
 /* font-family: "Amatic SC", sans-serif !important; */
+font-family: 'Roboto Slab', serif !important;
   font-weight: 900 !important;
     
   }
