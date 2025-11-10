@@ -86,6 +86,7 @@ nav.black-text {
 }
 
 .filtr-item .project-link {
+  font-family: 'Roboto Slab', serif !important;
   text-transform: uppercase;
   color: black !important;
   font-size: 2em !important;
@@ -130,3 +131,5 @@ font-family: 'Roboto Slab', serif !important;
   }
 
 
+h4{font-family: 'Roboto Slab', serif !important;
+  font-weight: 900 !important;}
