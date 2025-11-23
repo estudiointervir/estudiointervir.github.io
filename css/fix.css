@@ -88,11 +88,12 @@ nav.black-text {
 
 .filtr-item .project-link {
   font-family: 'Roboto Slab', serif !important;
- font-weight: 900 !important;
+ font-weight: 300 !important;
   text-transform: uppercase;
     color: black !important;
-  font-size: 2em !important;
+  font-size: 1.5em !important;
   opacity: 0.5;
+  line-height: normal;
   }
  .project-link:hover {opacity: 1;}
 
