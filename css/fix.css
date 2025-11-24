@@ -114,10 +114,9 @@ font-family: 'Roboto Slab', serif !important;
 }
 
 
+.filtr-item:hover .responsive-img {opacity: 0.3; filter:blur(0.5em);}
 
-.filtr-item:hover .responsive-img {opacity: 0.3; filter:blur(1em);}
-
-.filtr-item:hover .project-title {opacity: 1;transition-duration: 1s;}
+.filtr-item:hover .project-title {opacity: 1;transition-duration: 500ms;}
 
 
 .filtr-item {
@@ -151,3 +150,11 @@ text-transform: uppercase !important;
 
 .sidenav-trigger {opacity: 0.5;}
 .sidenav-trigger:hover {opacity: 1;}
+
+
+.production-label{text-transform: uppercase; font-size: smaller; float: left; text-align: center; white-space:nowrap; margin-right: 1em;}
+.done{color: #4CAF50 !important;}
+.doing{color: #dbba00 !important;}
+.undone{color: #4caf4f00 !important;}
+
+
