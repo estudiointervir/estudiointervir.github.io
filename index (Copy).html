@@ -865,11 +865,17 @@ sss
   <script type="text/javascript">
   // Ativa/desativa a classe 'active' nos filtros multifilter
   const multiFilters = document.querySelectorAll('.multifilter li');
-  Array.from(multiFilters).forEach((node) =>
-    node.addEventListener('click', function() {
-      node.classList.toggle('active');
-    })
-  );
+
+multiFilters.forEach(item => {
+  item.addEventListener('click', function() {
+    // remove a classe active de todos
+    multiFilters.forEach(i => i.classList.remove('active'));
+
+    // adiciona ao clicado
+    this.classList.add('active');
+  });
+});
+
 
   // Ordena os itens da galeria alfabeticamente pelo texto
   const container = document.querySelector('.filtr-container');
