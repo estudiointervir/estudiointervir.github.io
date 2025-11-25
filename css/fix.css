@@ -81,8 +81,9 @@ nav.black-text {
   
   }
 
- .project-link {opacity: 1; filter: blur(0.0em); transition: 0.5s ease-out, width 1ms;}
- .project-link:hover {opacity: 0.6;filter: blur(0.0em);}
+ .project-link {opacity: 1; filter: saturate(20%); transition: 0.5s ease-out, width 1ms;}
+ 
+ .project-link:hover {opacity: 1;filter: saturate(100%);}
 
  .card-content {padding-left: 0px !important; padding-top: 0px !important;}
 
@@ -112,6 +113,20 @@ font-family: 'Roboto Slab', serif !important;
   color: black !important;
   font-weight: 900 !important;
   }
+
+.title {
+  font-family: 'Roboto Slab', serif !important;
+  color: black !important;
+  font-weight: 900 !important;
+font-size: 4.2rem;
+  line-height: 110%;
+  margin: 2.8rem 0 1.68rem 0;
+}
+
+.subtitle {
+  font-family: 'Roboto Slab', serif !important;
+  margin-left: 1rem;
+}
 
   .label{
 /* font-family: "Amatic SC", sans-serif !important; */
