@@ -8,7 +8,7 @@ body {
 
 main {flex: 1 0 auto;}
 
-li.active{background-color: #f2f2f2 !important; opacity:1 !important;}
+li.tag-btn.active{background-color: #f2f2f2 !important; opacity:1 !important;}
 
 .footer-bg{  }
 .sidenav{}
@@ -161,3 +161,5 @@ text-transform: uppercase !important;
 .card{background-color: #0000 !important;}
 
 .tags{text-transform: uppercase; font-size: smaller; margin-right: 1em; color: grey;}
+
+ul.multifilter {margin-top: 0px; margin-bottom: 0px;}
