@@ -8,7 +8,7 @@ body {
 
 main {flex: 1 0 auto;}
 
-.active{background-color: #f00 !important; opacity:1 !important;}
+.tag-btn.active{background-color: #f00 !important; opacity:1 !important;}
 
 .footer-bg{  }
 .sidenav{}
