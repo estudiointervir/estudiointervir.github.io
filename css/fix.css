@@ -8,7 +8,8 @@ body {
 
 main {flex: 1 0 auto;}
 
-.active{font-weight: 900}
+.active{background-color: #f00; opacity:1}
+
 .footer-bg{  }
 .sidenav{}
 
@@ -51,6 +52,7 @@ li#sidenavlanguage a:hover {
   color: #0d6efd !important;
   opacity: 0.5;
   display: inline-block;
+background-color: #f00; 
 }
 .tag-btn:hover{
   cursor: pointer;
