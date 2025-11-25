@@ -8,7 +8,7 @@ body {
 
 main {flex: 1 0 auto;}
 
-li.active{background-color: #f00 !important; opacity:1 !important;}
+li.active{background-color: #f2f2f2 !important; opacity:1 !important;}
 
 .footer-bg{  }
 .sidenav{}
@@ -48,7 +48,7 @@ li#sidenavlanguage a:hover {
 }
 .tag-btn{
   text-transform: uppercase !important;
-  padding: 0.1em;
+  padding: 0.5em;
   color: #0d6efd !important;
   opacity: 0.5;
   display: inline-block;
