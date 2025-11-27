@@ -4,7 +4,7 @@ body {
   flex-direction: column;
   background-color: #fcfcfc;
   font-weight: 300;
-  overflow: "visible";
+  overflow: scroll !important;
 }
 
 main {flex: 1 0 auto;}
